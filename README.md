@@ -4,16 +4,28 @@
 
 
 ### Feature
+#### Extractor & Descriptor
 - Harris
 - SIFT
 - SURF
 - FAST
 - ORB
+- LIFT
+- SuperPoint
+
+#### Outlier Removal
+- RANSAC (SAC - world)
+- GMS
+- LFGC
+- LMR
+- SuperGlue
+
 
 ### Odometry
 - Pose estimation: Homography Decomp, Epipolar Decomp.
 - Triangulation: Direct Linear Transformation
 - SfM: Affine camera, Projective Camera
+
 
 ### Mapping
 - P3P
@@ -21,14 +33,16 @@
 - TSDF
 - Point Cloud Registration: ICP
 
+
 ### Optimization
 - Lie theory
 - Bundle Adjustment
 - Graph Optimization
 
+
 ### Relocalization
 - Bag-of-Visual-Word(BoVW)
-
+- NetVLAD
 
 
 
